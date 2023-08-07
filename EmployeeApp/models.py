@@ -8,7 +8,7 @@ class Departments( models.Model ):
     
 
 class Employees( models.Model ):
-    EmployeesId = models.AutoField(primary_key=True)
+    EmployeeId = models.AutoField(primary_key=True)
     EmployeeName = models.CharField(max_length=100)
     Department = models.CharField(max_length=100)
     DateOfJoining = models.DateField()
