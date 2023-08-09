@@ -12,4 +12,4 @@ class Employees( models.Model ):
     EmployeeName = models.CharField(max_length=100)
     Department = models.CharField(max_length=100)
     DateOfJoining = models.DateField()
-    PhotoFieldName = models.CharField(max_length=100)
+    
